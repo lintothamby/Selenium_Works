@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [MySuite]">
+  <test name="MyTest1(failed)">
+    <parameter name="password" value="welcome@12345"/>
+    <parameter name="userName" value="test.ecommit2014@gmail.com"/>
+    <classes>
+      <class name="Jbegin">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Jbegin -->
+    </classes>
+  </test> <!-- MyTest1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

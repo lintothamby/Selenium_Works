@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="none">
+<test name="MyTest1">
+<!-- <parameter name="url" value="www.mylogin.com"/>  -->
+<parameter name="userName" value="test.ecommit2014@gmail.com"/> 
+<parameter name="password" value="welcome@12345"/> 
+    <classes>
+            <class name="jbegin.java"/>
+    </classes> 
+ </test>
+</suite>
